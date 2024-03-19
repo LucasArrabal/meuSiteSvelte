@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/Test'
+          BASE_PATH: '/meuSiteSvelte'
         run: |
           npm run build
 
