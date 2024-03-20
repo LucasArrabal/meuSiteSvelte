@@ -28,7 +28,7 @@ jobs:
 
       - name: build
         env:
-          BASE_PATH: '/${{ lucasarrabal.github.io/meuSiteSvelte }}'
+          BASE_PATH: '/${{lucasarrabal.github.io/meuSiteSvelte }}'
         run: |
           npm run build
 
